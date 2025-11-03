@@ -1,4 +1,4 @@
-````markdown
+
 # ESP Monitor
 
 ESP Monitor is a lightweight, real-time system monitor designed to stream live CPU, RAM, and FPS statistics to your ESP-based device (such as ESP8266 or ESP32). It can connect via Wi-Fi to a local server, which can be written in **Python**, **Node.js**, **Java**, or **Rust** for optimal performance and flexibility.
@@ -25,7 +25,7 @@ You can configure your ESP device to connect to your Wi-Fi network directly thro
    ```python
    WIFI_SSID = "YourNetworkName"
    WIFI_PASS = "YourNetworkPassword"
-````
+
 
 3. Replace with your actual Wi-Fi name and password.
 4. The ESP will automatically connect on startup.
@@ -107,5 +107,6 @@ The visualization is sharp and responsive, updating almost instantly as new data
 ---
 
 For optimal performance, utilizing **Rust** or **Java-based servers** offers higher throughput and improved memory handling, particularly for real-time monitoring over extended periods.
+
 
 
